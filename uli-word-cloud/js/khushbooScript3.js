@@ -10,7 +10,7 @@ smallDiv.addEventListener('mousedown', (e) => {
      offsetX = e.clientX - smallDiv.offsetLeft;
     offsetY = e.clientY - smallDiv.offsetTop;
 
-    smallDiv.style.cursor = 'gradding';  // Change cursor to grabbing when dragging
+    smallDiv.style.cursor = 'grabbing';  // Change cursor to grabbing when dragging
 });
 
 // Mouse move event to move the div, only if dragging is true
