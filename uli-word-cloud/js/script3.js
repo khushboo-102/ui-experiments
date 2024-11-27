@@ -1,4 +1,5 @@
 const mainContainer = document.querySelector("#main-container");
+
 mainContainer.addEventListener("mousemove", (e) => {
     const x = e.clientX;
     const y = e.clientY;
