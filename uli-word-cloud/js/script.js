@@ -1,4 +1,4 @@
-let wordContainer = document.getElementById("wordContainer")
+let container = document.getElementById("container")
 let words = ["Apple", "Mango", "Orange", "Banana", "Apple",
     "Mango", "Orange", "Banana", "Apple", "Mango", "Orange",
     "Banana", "Apple", "Mango", "Orange", "Banana", "Apple",
@@ -16,10 +16,11 @@ for (let i = 0; i < words.length; i++) {
   //  console.log(word);
   textDiv.append(word)
   //  console.log(textDiv)
-   wordContainer.appendChild(textDiv)
+   container.appendChild(textDiv)
  }
 
-document.body.appendChild(textDiv)
+
+let textDiv = document.querySelector("div")
 textDiv.addEventlistener("mousemove", (e) => {
    const X = e.clientX;
   const Y = e.clientY;
